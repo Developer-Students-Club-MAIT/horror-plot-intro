@@ -1,0 +1,44 @@
+body {
+  background-image: url(./assets/HalloweenBG2.png);
+  background-size: cover;
+  background-color: #660066;
+  font-family: "Syne Mono", monospace;
+  background-position: center;
+}
+
+.head {
+  font-size: 80px;
+  font-weight: 800;
+  text-align: center;
+  margin: 3% 0;
+  color: #f7be14;
+}
+
+.sub {
+  font-size: 25px;
+  color: #f7d914;
+  margin: 5%;
+  text-align: justify;
+}
+
+.fa {
+  font-size: 25px;
+  margin: 7px;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  #image {
+    display: none;
+  }
+}
+#image {
+  width: 50%;
+  margin: -60px;
+}
+.demo {
+  width: 90%;
+  margin-top: 8%;
+  border: 15px solid #f7be14;
+  border-radius: 8%;
+}
