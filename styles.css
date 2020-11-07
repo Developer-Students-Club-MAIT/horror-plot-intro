@@ -42,3 +42,7 @@ body {
   border: 15px solid #f7be14;
   border-radius: 8%;
 }
+.row{
+  margin-left:0px;
+  margin-right:0px;
+}
